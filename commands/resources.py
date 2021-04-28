@@ -36,7 +36,7 @@ def show_commands():
     print("* show databases")
     print("* show measurements")
     print("* select database " + Fore.CYAN + "database_name")
-    print("* select " + Fore.CYAN + "stuff" + Fore.WHITE + " where " + Fore.CYAN + "some_conditions")
+    print("* select " + Fore.CYAN + "stuff" + Fore.WHITE + " from " + Fore.CYAN + "measurement_name")
     print("* insert " + Fore.CYAN + "measurement_name key=value")
     print("* insert default json")
     print("* update " + Fore.CYAN + "measurement_name key=value time")
